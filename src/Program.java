@@ -11,9 +11,11 @@ public class Program {
         petClinic.addClient(client1);
         petClinic.addPetToClient(client1,dog);
         petClinic.addPetToClient(client1,cat);
-        petClinic.addPetToClient(client1,dog);
+        //petClinic.addPetToClient(client1,dog);
+        System.out.println("Change for GitHub");
         petClinic.addPetToClient(client2,dog2);
         petClinic.getAllClients();
+
     }
 
 }
